@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgb(47,150,163),rgb(48,62,143));
+    font-family: monospace;
+    color:#fff;
+}
+header h1{
+    text-align: center;
+}
+.search-bar{
+    line-height: 50px;
+}
+#inputText{
+    padding:5px 5px;
+}
+#btn{
+    padding:5px;
+    border-radius: 20px;
+    color:#000;
+    background-color:#a6a6a6;
+    cursor:pointer;
+    text-decoration: none;
+}
+#btn:hover{
+    background-color:beige;
+}
+.place{
+    margin-top: 70px;
+    font-size: 30px;
+}
+.degree-section{
+    display: flex;
+    align-items: center;
+}
+.degree-section span{
+    line-height: 50px;
+    margin:2px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.degree-section h2{
+    font-size: 30px;
+}
